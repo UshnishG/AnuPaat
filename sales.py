@@ -97,7 +97,7 @@ def visualize_data(df):
     future_sales_prompt = f"""
     Based on the provided sales data, {highest_item_item_mrp} and {highest_item_medium_outlet} please predict the future sales trend for the upcoming months.
     Provide insights on potential growth areas and any patterns observed in the data. The highest sold item in terms of outlet size is {highest_item_outlet_size}, in medium-sized outlet is {highest_item_medium_outlet}, and in terms of outlet type is {highest_item_outlet_type}. Write 10 15 lines only.
-    Kindly keep it  10 points only pointwise so that user can read it properly.
+    Kindly keep it  10 points only pointwise so that user can read it properly. Also specifically mention the discounts we can give with min profit.
      """
     try:
         predicted_sales = openai.Completion.create(
