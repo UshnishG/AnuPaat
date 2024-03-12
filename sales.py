@@ -178,7 +178,6 @@ def visualize_data(df):
 
 def main():
     st.title("Inventory Sales Data Analysis")
-    st.markdown(f'<a href="{https://github.com/Ushnish2021/HackNova}">Data Set in GitHub Repo</a>', unsafe_allow_html=True)
     st.write("Upload your CSV file here:")
     uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 
