@@ -53,7 +53,7 @@ st.markdown('<div class="Logo">Anupaat</div>', unsafe_allow_html=True)
 # Function to visualize data
 def visualize_data(df):
     st.title('Inventory Sales Data Analysis')
-    st.markdown(f'<a href="{https://github.com/Ushnish2021/HackNova}">Data Set in GitHub Repo</a>', unsafe_allow_html=True)
+    
     st.subheader('Item_Identifier|Item_Popularity|Item_Type|Item_MRP|Outlet_Identifier|Outlet_Establishment_Year|Outlet_Size|Outlet_Location_Type|Outlet_Type|Item_Outlet_Sales')
     # Display dataset
     st.subheader('Dataset')
@@ -178,6 +178,7 @@ def visualize_data(df):
 
 def main():
     st.title("Inventory Sales Data Analysis")
+    st.markdown(f'<a href="{https://github.com/Ushnish2021/HackNova}">Data Set in GitHub Repo</a>', unsafe_allow_html=True)
     st.write("Upload your CSV file here:")
     uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 
