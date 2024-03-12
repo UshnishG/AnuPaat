@@ -4,7 +4,7 @@ import plotly.express as px
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 
