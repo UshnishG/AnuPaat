@@ -5,7 +5,7 @@ import openai
 import os
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = <api_key>
 
 
 
@@ -37,19 +37,6 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # Add the logo
 st.markdown('<div class="Logo">Anupaat</div>', unsafe_allow_html=True)
 
-
-# # Custom CSS
-# st.markdown(
-#     """
-#     <style>
-#     .main {
-#         background-color: #fff;
-#         padding: 20px;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
 
 # Function to visualize data
 def visualize_data(df):
